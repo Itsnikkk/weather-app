@@ -12,7 +12,7 @@ function App(){
      const [selectedDay,setselectedDay]=useState(null);
      const [search,setsearch]=useState("");
      const [showSuggestion,setshowSuggestion]=useState(false);
-     const appid="1b2c55e03f592c967fa1eda2eae07ef4";
+     const appid="9b29d59cc0cc2c51b3253424e2119630";
      let latitude ;
     let longitude ;
 
