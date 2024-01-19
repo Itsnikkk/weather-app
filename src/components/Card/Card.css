@@ -1,0 +1,13 @@
+.card_container{
+    /* height: 400px; */
+    width: 100%;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 15px 20px;
+}
+
+.lineChartContainer{
+    overflow: scroll;
+    margin-bottom: 20px;
+}

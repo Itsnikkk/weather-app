@@ -1,0 +1,9 @@
+.hours_container {
+    display: flex;
+    overflow: scroll;
+    margin-top: 25px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,17 @@
+.Graph1Container{
+    width: 100%;
+    height: 150px;
+    background: #f3f3f3;
+}
+
+/* .recharts-cartesian-grid.graph1Grid{
+    display: none;
+}
+
+.recharts-surface .recharts-cartesian-grid{
+    display: none;
+} */
+/* 
+g.recharts-cartesian-grid-vertical line{
+    display: none;
+} */

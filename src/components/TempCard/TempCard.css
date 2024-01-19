@@ -1,0 +1,62 @@
+.temp_card{
+    height: 128px;
+    background: #ffffff;
+    margin-right: 10px;
+    flex: 0 0 90px;
+    position: relative;
+    /* border: 2px solid var(--blue); */
+}
+
+.selectDay{
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+
+/* input[type="radio"]:checked{
+    box-shadow: 0 0 1px 2px var(--blue);
+} */
+
+.selectDay:checked + .content{
+    /* box-shadow: 0 0 1px 2px var(--blue); */
+    border: 2px solid var(--blue);
+    
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px 12px;
+}
+
+.icons-img{
+    width: 30px; 
+    margin: 0.5rem;  
+}
+
+.day{
+    font-weight: bold;
+    margin-bottom: .2rem;
+}
+
+.temp{
+    color: #bebebe;
+}
+
+.weather{
+    color: #bebebe;
+    font-weight: 500;
+    text-align: center;
+}
+
+.firstTemp{
+    color: #111;
+    margin-right: 10px;
+    font-weight: 500;
+}

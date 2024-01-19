@@ -1,0 +1,25 @@
+.pressure__humidity{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.pressure{
+    margin-right: 10px;
+    background: #eef6fd;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem .75rem;
+}
+
+.humidity{
+    background: #eef6fd;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem .75rem;
+}
+
+.text1{
+    font-weight: bold;
+}
